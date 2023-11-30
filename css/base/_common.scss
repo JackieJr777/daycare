@@ -1,0 +1,144 @@
+
+// ========================================Общие параметры============================================ 
+/* -----------------------Общие стили--------------------------*/
+/* --------------------Контейнер-------------------- */
+
+[class*="__container"] {
+	max-width: $maxWidthContainer;
+	margin: 0px auto;
+	padding: 0px 15px; // отступы безопасности 
+}
+/* ------------------------------------------------- */
+
+/* ----------------------Body----------------------- */
+body {
+	line-height: 1;
+	font-family: $fontFamily;
+	background-color: $colorGrey2 /* aqua */;
+	color: $colorGrey;
+	// Скролл заблокирован
+	._lock & {
+		overflow: hidden;
+	}
+}
+/* ------------------------------------------------- */
+
+/* --------------Оболочка wrapper------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	//padding: 20px;
+	display: flex;
+	flex-direction: column;
+    // Прибиваем футер к низу, позволив блоку main увеличиваться
+    > main {
+        flex: 1 1 auto;
+    }
+}
+/* ------------------------------------------------- */
+
+/* --------------------ibg-------------------------- */
+[class*="_ibg"] {
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		// object-position: top;
+	}
+}
+/* ------------------------------------------------- */
+
+/* ----------------------btn------------------------ */
+.btn {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  background-color: $colorRed;
+  border-radius: 8px;
+  color: $colorWhite;
+  cursor: pointer;
+	transition: background-color 0.3s ease 0s;
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: #fc8e8c;
+    }
+  }
+}
+/* ---------------------/btn------------------------ */
+
+
+
+/* ----------------titles-block--------------------- */
+.titles-block {
+	& > *:not(:last-child) {
+		margin: 0 0 clamp(1.25rem, 0.825rem + 1.6vw, 1.875rem); // от 30 до 20 на 1050 до 425
+	}
+	// .titles-block__subtitle
+	&__subtitle {     
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 2; /* 200% */
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+		display: flex;
+		align-items: center;
+		column-gap: 5px;      
+		@media (max-width: $mobile) {
+			justify-content: center; 
+		}
+		// .titles-block__subtitle_color-white
+		&_color-white {
+			color: $colorWhite;
+			&::before {
+				content: "";
+				flex: 0 0 28px;
+				height: 27px;
+				align-self: flex-start;
+				background: url('../../img/mainpage/who-we-are/icon.svg') 0 0 / 100% no-repeat;
+			}
+		}
+		// .titles-block__subtitle_color-purple
+    &_color-purple {
+      color: $colorPurple;
+      &::before {
+				content: "";
+				flex: 0 0 28px;
+				height: 27px;
+				align-self: flex-start;
+				background: url('../../img/mainpage/promise/icon.svg') 0 0 / 100% no-repeat;
+			}
+    }
+	}
+	// .titles-block__title
+	&__title {
+		font-size: clamp(1.438rem, 0.885rem + 2.08vw, 2.25rem); // от 36 до 23 на 1050 до 425
+		font-weight: 900;
+		line-height: 1.166666666666667; /* 116.667% */      
+		@media (max-width: $mobile) {
+			text-align: center;
+		}
+		// .titles-block__title_color-white
+		&_color-white {
+			color: $colorWhite;
+		}
+		// .titles-block__title_color-black
+    &_color-black {
+      color: $colorBlack;
+    }
+	}
+}
+/* ----------------/titles-block-------------------- */
+
+
+
+
+
+/* -----------------------/Общие стили-------------------------*/
+// =========================================/Общие параметры========================================== 
