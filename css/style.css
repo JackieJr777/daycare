@@ -164,7 +164,7 @@ body {
   height: 27px;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  background: url("../../img/mainpage/who-we-are/icon.svg") 0 0/100% no-repeat;
+  background: url("../img/mainpage/who-we-are/icon.svg") 0 0/100% no-repeat;
 }
 .titles-block__subtitle_color-purple {
   color: #5D62B5;
@@ -177,7 +177,7 @@ body {
   height: 27px;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  background: url("../../img/mainpage/promise/icon.svg") 0 0/100% no-repeat;
+  background: url("../img/mainpage/promise/icon.svg") 0 0/100% no-repeat;
 }
 .titles-block__title {
   font-size: clamp(1.438rem, 0.885rem + 2.08vw, 2.25rem);
@@ -1030,7 +1030,7 @@ body {
   left: -28.3%;
   height: 100%;
   width: 75%;
-  background: url("../../img/mainpage/customers/blob1.png") 0 100%/100% no-repeat;
+  background: url("../img/mainpage/customers/blob1.png") 0 100%/100% no-repeat;
 }
 /* -----top-mainpaige----- */
 .top-mainpage {
@@ -1134,7 +1134,7 @@ body {
   margin: -10.69% 0 0 0;
   width: 19.71%;
   height: 100%;
-  background: url("../../img/mainpage/who-we-are/decor-circles.svg") 0 0/100% no-repeat;
+  background: url("../img/mainpage/who-we-are/decor-circles.svg") 0 0/100% no-repeat;
 }
 @media (max-width: 767.98px) {
   .who-we-are__body::before {
@@ -1151,7 +1151,7 @@ body {
           transform: translate(-89%, 0);
   width: 50.39%;
   height: 100%;
-  background: url("../../img/mainpage/who-we-are//decor-blob.png") 0% 104%/100% no-repeat;
+  background: url("../img/mainpage/who-we-are//decor-blob.png") 0% 104%/100% no-repeat;
 }
 @media (max-width: 767.98px) {
   .who-we-are__body::after {
@@ -1309,13 +1309,13 @@ body {
   left: 0;
   width: 26.32%;
   max-width: 380px;
-  background: url("../../img/mainpage/nemo/blob.svg") 0 0/100% no-repeat;
+  background: url("../img/mainpage/nemo/blob.svg") 0 0/100% no-repeat;
   z-index: 1;
 }
 .nemo::after {
   width: 14.24%;
   max-width: 205px;
-  background: url("../../img/mainpage/nemo/circles.svg") 0 100%/100% no-repeat;
+  background: url("../img/mainpage/nemo/circles.svg") 0 100%/100% no-repeat;
   bottom: 15%;
   left: -0.1%;
 }
@@ -1323,7 +1323,7 @@ body {
   .nemo::after {
     display: none;
     /* top: 0;
-    background: url('../../img/mainpage/nemo/circles.svg') 0 0 / 100% no-repeat; */
+    background: url('../img/mainpage/nemo/circles.svg') 0 0 / 100% no-repeat; */
   }
 }
 .nemo__container {
@@ -1353,12 +1353,12 @@ body {
   height: 100%;
   top: 0;
   right: 0;
-  background: url("../../img/mainpage/nemo/ball_and_dots.png") -15px 0/100% no-repeat;
+  background: url("../img/mainpage/nemo/ball_and_dots.png") -15px 0/100% no-repeat;
 }
 @media (max-width: 767.98px) {
   .nemo__bg-image {
     width: 100%;
-    background: url("../../img/mainpage/nemo/ball_and_dots.png") -15px -20px/100% no-repeat;
+    background: url("../img/mainpage/nemo/ball_and_dots.png") -15px -20px/100% no-repeat;
   }
 }
 .nemo__btn {
@@ -1431,7 +1431,7 @@ body {
   width: 35.42%;
   max-width: 510px;
   height: 100%;
-  background: url("../../img/mainpage/services/blob-decor_cr.png") 0 0/100% no-repeat;
+  background: url("../img/mainpage/services/blob-decor_cr.png") 0 0/100% no-repeat;
 }
 .services__container {
   position: relative;
@@ -1619,7 +1619,7 @@ body {
     height: 100%;
   } */
   /* &::before {
-    background: url("../../img/mainpage/make-an-appointment/stylize_circles.svg") 0 60% / 100% no-repeat;
+    background: url("../img/mainpage/make-an-appointment/stylize_circles.svg") 0 60% / 100% no-repeat;
     width: 32.84%;
     max-width: 335px;
     top: 0;
@@ -1628,7 +1628,7 @@ body {
     z-index: 1;
   }
   &::after {
-    background: url("../../img/mainpage/make-an-appointment/blob.png") 0 18% / 100% no-repeat;
+    background: url("../img/mainpage/make-an-appointment/blob.png") 0 18% / 100% no-repeat;
     width: 84.71%;
     max-width: 894px;
     top: 0;
@@ -1718,7 +1718,7 @@ body {
   height: 100%;
 }
 .form-item::before {
-  background: url("../../img/mainpage/make-an-appointment/stylize_circles.svg") 0 100%/100% no-repeat;
+  background: url("../img/mainpage/make-an-appointment/stylize_circles.svg") 0 100%/100% no-repeat;
   width: 57.26%;
   bottom: 0;
   left: 0;
@@ -1726,7 +1726,7 @@ body {
   margin: 0 0 -5.47% -18.8%;
 }
 .form-item::after {
-  background: url("../../img/mainpage/make-an-appointment/blob.png") 0 100%/100% no-repeat;
+  background: url("../img/mainpage/make-an-appointment/blob.png") 0 100%/100% no-repeat;
   width: 152.82%;
   bottom: 0;
   left: 0;
@@ -2030,7 +2030,7 @@ body {
           box-shadow: 0 0 10px 7px #F2726F;
 }
 .checkbox__input:checked + .checkbox__label::before {
-  background: #fff url("../../img/mainpage/make-an-appointment/checkbox-icons/arrow_ok.svg") 50%/100% no-repeat;
+  background: #fff url("../img/mainpage/make-an-appointment/checkbox-icons/arrow_ok.svg") 50%/100% no-repeat;
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -2385,7 +2385,7 @@ body {
   -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
-  background: url("../../img/mainpage/gallery/arrow_24px.svg") 0 0/100% no-repeat;
+  background: url("../img/mainpage/gallery/arrow_24px.svg") 0 0/100% no-repeat;
   -webkit-transition: -webkit-transform 0.5s ease 0s;
   transition: -webkit-transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s;
@@ -2555,7 +2555,7 @@ body {
   -webkit-transform: translate(-11%, 0);
       -ms-transform: translate(-11%, 0);
           transform: translate(-11%, 0);
-  background: url("../../img/mainpage/impact/blob.png") 0 0/100% no-repeat;
+  background: url("../img/mainpage/impact/blob.png") 0 0/100% no-repeat;
   width: 68.14%;
   height: 100%;
 }
@@ -2960,7 +2960,7 @@ body {
     right: 0;
     width: 30px;
     height: 30px;
-    background: url("../../img/footer/icons/arrow_24px.svg") 0 0/100% no-repeat;
+    background: url("../img/footer/icons/arrow_24px.svg") 0 0/100% no-repeat;
     -webkit-transition: -webkit-transform 0.3s ease-in 0s;
     transition: -webkit-transform 0.3s ease-in 0s;
     transition: transform 0.3s ease-in 0s;
@@ -3069,7 +3069,7 @@ body {
     right: 0;
     width: 30px;
     height: 30px;
-    background: url("../../img/footer/icons/arrow_24px.svg") 0 0/100% no-repeat;
+    background: url("../img/footer/icons/arrow_24px.svg") 0 0/100% no-repeat;
     -webkit-transition: -webkit-transform 0.3s ease-in 0s;
     transition: -webkit-transform 0.3s ease-in 0s;
     transition: transform 0.3s ease-in 0s;
